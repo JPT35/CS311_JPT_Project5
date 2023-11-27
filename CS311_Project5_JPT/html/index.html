@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mad Libs by JP</title>
+        <link href="stylesheet.css" rel="stylesheet">
+    </head>
+
+    <body style="background-color: black; color: white;">
+
+    <div class="main-container">
+
+        <div class="container1" id="inputSection">
+            <header style="font-size: 2em; font-weight: bold;">Mad libs by JP</header>
+            <main>
+                <div class="row">
+                    <h2>Enter a place:</h2>
+                    <input type="text" id="inputPlace" placeholder="Enter name">
+                </div>
+
+                <div class="row">
+                    <h2>Enter an adjective:</h2>
+                    <input type="text" id="inputAdjective1" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter a noun:</h2>
+                    <input type="text" id="inputNoun1" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter a verb:</h2>
+                    <input type="text" id="inputVerb" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter a geographical feature:</h2>
+                    <input type="text" id="inputGeo" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter an adjective:</h2>
+                    <input type="text" id="inputAdjective2" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter an object:</h2>
+                    <input type="text" id="inputObject" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter a material:</h2>
+                    <input type="text" id="inputMaterial" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter an adjective:</h2>
+                    <input type="text" id="inputAdjective3" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    <h2>Enter a noun:</h2>
+                    <input type="text" id="inputNoun2" placeholder="Enter adjective">
+                </div>
+
+                <div class="row">
+                    
+                    <button id="showMadlib" class="button-link">Show Madlib</button>
+
+                </div>
+
+                <div class="image-container">
+                    <img src="../images/madlibimage.jpg" alt="Image Madlib">
+                </div>
+
+            </div>
+            </main>
+
+        </div>
+
+            <div class="container" id="madlibSection" style="display: none;">
+                <h1>Your Madlib Story</h1>
+                <p id="madlibStory">
+                    Once upon a time in a far-off <span id="place"></span>, there lived a <span id="adjective1"></span> <span id="noun1"></span>. Every day, the <span id="noun1-repeat"></span> loved to <span id="verb"></span> near the <span id="geo"></span>. One sunny day, a <span id="adjective2"></span> stranger came to town, carrying a <span id="object"></span> and wearing a hat that looked like it was made of <span id="material"></span>.
+                    <br><br>
+                    The stranger approached the <span id="noun1-repeat2"></span> and said, "I am on a quest to find the most <span id="adjective3"></span> <span id="noun2"></span> in the world. I heard it's located in this very place!"
+                    <br><br>
+                     Intrigued, the <span id="noun1-repeat3"></span> decided to join the stranger on this adventure. They searched high and low, through the <span id="geo-repeat"></span> and beyond. After many days, they finally discovered the <span id="adjective3-repeat"></span> <span id="noun2-repeat"></span>.
+                </p>
+                <button id="createAnother" class="button-link">Create Another</button>
+            </div>
+
+            <footer>Created by John Paul Thomas 2023</footer>
+        
+
+        <script src="../js/madlib.js"></script>
+
+    </body>
+</html>
